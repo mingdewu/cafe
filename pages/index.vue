@@ -49,7 +49,7 @@
     </div>
     <div class="w-full md:max-w-3xl mx-auto pt-20 px-6 md:px-0">
       <h2 class="font-sans text-lg text-gray-800 text-center text-3xl mb-10">
-        MdN Cafeのおすすめメニュー
+         Cafeのおすすめメニュー
       </h2>
       <div class="flex flex-wrap justify-between mb-20 md:mb-0">
         <div class="md:w-56 mb-20 shadow-lg bg-gray-200">
@@ -89,7 +89,7 @@
         </a>
       </div>
       <h2 class="font-sans text-lg text-gray-800 text-center text-3xl mb-10">
-        MdN Cafeのお知らせ
+        Cafeのお知らせ
       </h2>
       <div class="mb-20">
         <div
@@ -97,7 +97,7 @@
         >
           <a href="/information/detail" class="block px-4 py-3">
             <time class="text-gray-700 text-base mb-1 block md:w-1/6">
-              2020.08.15
+              2022.08.15
             </time>
             <div class="md:w-10/12">お知らせタイトル</div>
           </a>
@@ -107,7 +107,7 @@
         >
           <a href="/information/detail" class="block px-4 py-3">
             <time class="text-gray-700 text-base mb-1 block md:w-1/6">
-              2020.08.15
+              2022.08.15
             </time>
             <div class="md:w-10/12">お知らせタイトル</div>
           </a>
@@ -117,7 +117,7 @@
         >
           <a href="/information/detail" class="block px-4 py-3">
             <time class="text-gray-700 text-base mb-1 block md:w-1/6">
-              2020.08.15
+              2022.08.15
             </time>
             <div class="md:w-10/12">お知らせタイトル</div>
           </a>
@@ -136,7 +136,7 @@
       <p
         class="text-center text-white text-sm font-bold leading-relaxed whitespace-no-wrap uppercase"
       >
-        Copyright © 2020 NUXT SMAPLE SITE DEMO
+        Copyright © 2022 MINGDE SITE DEMO
       </p>
     </footer>
 </div>

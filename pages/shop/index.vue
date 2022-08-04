@@ -6,7 +6,7 @@
         <tbody>
           <tr>
             <td class="border px-4 py-2">店舗名</td>
-            <td class="border px-4 py-2">MdNカフェ</td>
+            <td class="border px-4 py-2">カフェ</td>
           </tr>
           <tr>
             <td class="border px-4 py-2">店舗住所</td>
