@@ -17,4 +17,5 @@ $ npm run start
 $ npm run generate
 ```
 ![１](https://user-images.githubusercontent.com/51104897/222346768-6304a688-e277-4209-a45f-4b12d2ffd248.PNG)
-![２](https://user-images.githubusercontent.com/51104897/222346773-5d92cbe1-d7e7-4fc3-b1ea-b8086960463a.PNG)
+
+![2](https://user-images.githubusercontent.com/51104897/222347026-9eb0105d-ea19-45f5-a87d-ece50a316c81.PNG)
