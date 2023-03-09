@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vue.js　サンプル</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/vue@3.0.0/dist/vue.global.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <count-up-button @count-up="count += $event"></count-up-button>
+      <div>{{ count }}</div>
+    </div>
+    <script type="text/x-template" id="btn-template">
+      <button type="button" @click="onClick">COUNT UP</button>
+    </script>
+    <script src="sample4.js"></script>
+  </body>
+</html>

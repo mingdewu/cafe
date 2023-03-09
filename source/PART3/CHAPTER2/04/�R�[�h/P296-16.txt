@@ -1,0 +1,23 @@
+<script>
+export default {
+  name: 'LayoutVisual',
+  props: {
+    title: {
+      type: String,
+      default: '',
+    },
+    message: {
+      type: String,
+      default: '',
+    },
+    visual: {
+      type: String,
+      default: 'visual-home',
+    },
+    height: {
+      type: Number,
+      default: 75,
+    },
+  },
+}
+</script>

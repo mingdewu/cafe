@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vue.js　サンプル</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/vue@3.0.0/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <select v-model="author" multiple>
+          <option value="Yamada">Yamada</option>
+          <option value="Sekiguchi">Sekiguchi</option>
+          <option value="Nagasawa">Nagasawa</option>
+        </select>
+        <p>{{ author }}</p>
+      </div>
+    </div>
+    <script src="sample.js"></script>
+  </body>
+</html>

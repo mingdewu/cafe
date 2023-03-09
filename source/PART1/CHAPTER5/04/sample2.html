@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vue.js　サンプル</title>
+    <link rel="stylesheet" href="sample2.css" />
+    <script src="https://unpkg.com/vue@3.0.0/dist/vue.global.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <button @click="filterDone = !filterDone">Toggleフィルターボタン</button>
+      <transition-group tag="ul">
+        <li v-for="item in filteredItems" :key="item.title">
+          {{ item.title }}
+        </li>
+      </transition-group>
+    </div>
+    <script src="sample2.js"></script>
+  </body>
+</html>

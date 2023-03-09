@@ -1,0 +1,5 @@
+【ご注意】assetsフォルダにimgフォルダ、visual-home.jpg等を設定しないとエラーになります。
+
+.visual-home {
+  background-image: url('~@/assets/img/visual-home.jpg');
+}

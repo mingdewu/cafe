@@ -1,0 +1,5 @@
+【補足】現状のcomponents/LayoutInformationList.vueに書かれているコードの抜粋です
+
+	  <time class="text-gray-700 text-base mb-1 block md:w-1/6">
+        {{ date | formatDate }}
+      </time>

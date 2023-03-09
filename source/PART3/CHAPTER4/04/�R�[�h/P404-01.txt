@@ -1,0 +1,19 @@
+//従来のNuxt.jsでは下記の記述が必要でしたが、本書でインストールしている2.14.4であればこの記述は不要です。必要に応じて記述してください
+
+  generate: {
+    fallback: true, //紙面では省略
+    routes() {
+      const information = axios
+        .get(`${process.env.API_URL}/information`, {
+          headers: { 'X-API-KEY': process.env.API_KEY },
+        })
+        .then((res) => {
+          return res.data.contents.map((information) => {
+            return '/information/' + information.id
+          })
+        })
+      return Promise.all([information]).then((values) => {
+        return values.join().split(',')
+      })
+    },
+  },

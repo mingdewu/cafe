@@ -1,0 +1,40 @@
+//pages/concept/index.vue
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'コンセプト',
+    }
+  },
+}
+</script>
+
+
+
+//pages/shop/index.vue
+<script>
+export default {
+  head() {
+    return {
+      title: '店舗情報',
+    }
+  },
+}
+</script>
+
+
+
+//layouts/error.vue
+<script>
+export default {
+  head() {
+    return {
+      title: 'PAGE NOT FOUND',
+    }
+  },
+}
+</script>
+
+
+//以降で作成するメニューページとお知らせのページにも同様に設定します。titleに設定する文字列はP311の表をご覧ください

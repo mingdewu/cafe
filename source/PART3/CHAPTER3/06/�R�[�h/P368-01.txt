@@ -1,0 +1,15 @@
+【補足】ここまでの状態のpages/information/index.vueの内容です
+
+<template>
+  <layout-wrapper>
+    <layout-visual
+      title="Information"
+      :height="40"
+      visual="visual-information"
+    />
+    <div class="w-full md:max-w-3xl mx-auto pt-20>
+      <layout-information-list />
+      <base-button name="トップへ戻る" link="/" />
+    </div>
+  </layout-wrapper>
+</template>

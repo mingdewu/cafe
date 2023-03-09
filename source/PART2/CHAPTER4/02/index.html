@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Accordion Sample</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app" class="container"></div>
+    <!-- START: アコーディオンのテンプレート -->
+    <script type="text/x-template" id="my-sample-accordion">
+      <dl class="accordion">
+        <dt
+          class="accordion_ttl"
+          :class="{ 'is_open': isShown }"
+          role="button"
+          @click="isShown = !isShown"
+        >
+          {{ title }}
+        </dt>
+        <transition
+          name="accordionBody"
+          @enter="enter"
+          @after-enter="afterTransition"
+          @leave="leave"
+          @after-leave="afterTransition"
+        >
+          <dd
+            v-show="isShown"
+            class="accordion_body"
+          >
+            <div class="accordion_txt">
+              <slot></slot>
+            </div>
+          </dd>
+        </transition>
+      </dl>
+    </script>
+    <!-- END: アコーディオンのテンプレート -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.global.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
