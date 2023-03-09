@@ -1,0 +1,6 @@
+export default {
+  //省略
+  generate: {
+    fallback: true,
+  },
+}

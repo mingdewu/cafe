@@ -1,0 +1,17 @@
+[
+	{
+		"fieldId":"title",
+		"name":"お知らせのタイトル",
+		"kind":"text"
+	},
+	{
+		"fieldId":"date",
+		"name":"公開日",
+		"kind":"date"
+	},
+	{
+		"fieldId":"body",
+		"name":"お知らせ本文",
+		"kind":"richEditor"
+	}
+]

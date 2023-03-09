@@ -1,0 +1,4 @@
+//「.env」のファイル名で保存します
+BASE_URL=http://localhost:3000
+API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+API_URL=https://XXXXXXXXXXXXXXXX.microcms.io/api/v1

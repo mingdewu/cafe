@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Item List and Search Sample</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <!-- START: 商品一覧を表示するテンプレート -->
+    <div id="app" class="container">
+      <div class="columns is-mobile is-centered">
+        <div class="column is-half">
+          <h1 class="title is-1">Item List and Search Sample</h1>
+        </div>
+      </div>
+
+      <div class="columns is-mobile is-centered">
+        <div class="column is-half">
+          <table class="table is-striped is-fullwidth">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>商品名</th>
+                <th class="has-text-right">価格(円)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="item in items" :key="item.id">
+                <td>{{ item.id }}</td>
+                <td>{{ item.name }}</td>
+                <td class="has-text-right">{{ item.price }}</td>
+              </tr>
+            </tbody>
+          </table>
+          <p v-if="items.length === 0" class="has-text-centered">
+            対象の商品は見当たりませんでした。
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- END: 商品一覧を表示するテンプレート -->
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.global.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

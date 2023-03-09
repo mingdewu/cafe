@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vue.js クイズ</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <div id="app" class="container">
+      <div class="columns is-mobile is-centered">
+        <div class="column is-half">
+          <h1 class="title is-1 has-text-centered">Vue.js クイズ</h1>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/x-template" id="qa-template">
+      <div class="box">
+        <div class="content">
+          <p class="is-size-4">Q: {{ questionText }}</p>
+          <div class="columns">
+            <div class="column">
+              <button
+                class="button is-fullwidth is-success"
+                @click="onClickYesBtn"
+              >
+                YES
+              </button>
+            </div>
+            <div class="column">
+              <button
+                class="button is-fullwidth is-warning"
+                @click="onClickNoBtn"
+              >
+                NO
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.global.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

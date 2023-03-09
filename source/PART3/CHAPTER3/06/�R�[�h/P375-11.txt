@@ -1,0 +1,7 @@
+      <layout-information-list
+        v-for="(item, index) in items"
+        :id="item.id"
+        :key="index"
+        :date="item.date"
+        :title="item.title"
+      />

@@ -1,0 +1,5 @@
+【補足】LayoutHeader.vueのナビゲーション制御部分の抜粋です
+      <nav
+        class="w-full md:block absolute left-0 md:static bg-black md:bg-none z-20"
+        :class="isOpen ? 'block' : 'hidden'"
+      >

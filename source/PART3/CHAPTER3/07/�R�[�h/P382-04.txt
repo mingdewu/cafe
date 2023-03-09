@@ -1,0 +1,10 @@
+【補足】現状のpages/information/_id.vueに書かれているコードの抜粋です
+
+export default {
+  //…省略…
+  head() {
+    return {
+      title: this.item.title,
+    }
+  },
+}
