@@ -1,0 +1,44 @@
+      <h2 class="font-sans text-lg text-gray-800 text-center text-3xl mb-10">
+        MdN Cafeのお知らせ
+      </h2>
+      <div class="mb-20">
+        <div
+          class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 shadow-md mb-5"
+        >
+          <a href="/information/detail" class="block px-4 py-3">
+            <time class="text-gray-700 text-base mb-1 block md:w-1/6">
+              2020.08.15
+            </time>
+            <div class="md:w-10/12">お知らせタイトル</div>
+          </a>
+        </div>
+        <div
+          class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 shadow-md mb-5"
+        >
+          <a href="/information/detail" class="block px-4 py-3">
+            <time class="text-gray-700 text-base mb-1 block md:w-1/6">
+              2020.08.15
+            </time>
+            <div class="md:w-10/12">お知らせタイトル</div>
+          </a>
+        </div>
+        <div
+          class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 shadow-md mb-5"
+        >
+          <a href="/information/detail" class="block px-4 py-3">
+            <time class="text-gray-700 text-base mb-1 block md:w-1/6">
+              2020.08.15
+            </time>
+            <div class="md:w-10/12">お知らせタイトル</div>
+          </a>
+        </div>
+      </div>
+      <div class="mb-10 mx-auto text-center">
+        <a
+          href="/information/"
+          class="font-semibold md:text-lg xl:text-base px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 leading-tight shadow-md rounded-lg bg-white hover:bg-gray-200 text-gray-800"
+        >
+          お知らせの一覧
+        </a>
+      </div>
+    </div>

@@ -1,0 +1,18 @@
+<template>
+  <div :class="itemClass">
+    <div :class="blockClass">
+      <img v-if="image" :src="imageUrl" :alt="name" :class="imageClass" />
+      <img
+        v-else
+        src="~/assets/img/dummy.jpg"
+        :alt="name"
+        :class="imageClass"
+      />
+      <div :class="dataClass">
+        <div class="font-bold text-xl mb-2">{{ name }}</div>
+        <p v-if="flagBody" class="text-base mb-2">{{ body }}</p>
+        <p class="text-gray-700 text-base mb-4">{{ price }}円（税込）</p>
+      </div>
+    </div>
+  </div>
+</template>

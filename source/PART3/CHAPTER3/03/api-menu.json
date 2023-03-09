@@ -1,0 +1,27 @@
+[
+	{
+		"fieldId":"name",
+		"name":"商品名",
+		"kind":"text"
+	},
+	{
+		"fieldId":"price",
+		"name":"価格",
+		"kind":"number"
+	},
+	{
+		"fieldId":"image",
+		"name":"画像",
+		"kind":"media"
+	},
+	{
+		"fieldId":"body",
+		"name":"本文",
+		"kind":"textArea"
+	},
+	{
+		"fieldId":"flag",
+		"name":"おすすめメニュー",
+		"kind":"boolean"
+	}
+]

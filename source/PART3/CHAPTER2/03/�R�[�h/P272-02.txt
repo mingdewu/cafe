@@ -1,0 +1,10 @@
+【ご注意】index.vueを下記の状態にした際にはブラウザ上ではエラーが出ます（進めるとエラーが出なくなります）。また、コードの末尾に改行が入っていない場合もエラーになるのでご注意ください。
+
+<template>
+  <div>
+    mdn-cafe
+  </div>
+</template>
+
+<script></script>
+<style></style>

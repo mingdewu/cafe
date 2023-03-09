@@ -1,0 +1,53 @@
+<script src="https://unpkg.com/vue@3"></script>
+
+<span>Message:{{msg}}</span>
+
+
+<p>USing text interpolation:{{ rawHtml}}</p>
+<p>Using v-html directive:<span v-html="rawHtml"></span></p>
+<div v-bind:id="dunamicId">Attribute Bindings</div>
+<div :id=""dynamicId>Attribute Bindings Shorthand</div>
+<button :disabled="isButtonDisabled">BOolean Attributes Button</button>
+
+<!--JavaScript Expressions-->
+{{ number + 1}}
+{{ok ? 'YES':'No'}}
+{{message.split('').reverse().join('')}}
+
+<div :id="`list-${id}`"></div>
+<!-- this is a statement, not an expression: -->
+{{ var a = 1 }}
+
+<!-- flow control won't work either, use ternary expressions -->
+{{ if (ok) { return message } }}
+
+
+<!--Calling FUnctions -->
+
+<span :title="toTitleDate(date)">
+    {{formatDate(date)}}
+</span>
+
+<!--Directives-->
+<p v-if="seen">Now you see me</p>
+<!--argument-->
+<a v-bind:href="url">...</a>
+<a :href="url">...</a>
+
+<a :[someAttr]="value"> ... </a>
+<script>
+  const { createApp } = Vue
+
+  createApp({
+    data() {
+      return {
+        objectOofAttrs:{
+            // Dynamically Binding 
+            id:'container',
+            class:'wrapper'
+        },
+        message: 'Hello Vue!'
+      }
+    }
+  }).mount('#app')
+</script>

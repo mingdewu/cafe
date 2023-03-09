@@ -1,0 +1,10 @@
+<template>
+  <div>
+    <h2 class="font-sans text-lg text-gray-800 textcenter text-3xl mb-10">
+      <slot name="title" />
+    </h2>
+    <p><slot name="text" /></p>
+  </div>
+</template>
+
+<base-heading title="見出しです" text="メッセージです。" />

@@ -1,0 +1,5 @@
+【補足】現状のcomponents/LayoutInformationList.vueに書かれているコードの抜粋です
+
+      <div class="md:w-10/12">
+        {{ title }}
+      </div>
